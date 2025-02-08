@@ -42,6 +42,10 @@ a {
     color: #E5E7EB;
 }
 
+img {
+    border-radius: 6px;
+}
+
 .header-other-section {
     display: flex;
     width: 1100px;
@@ -137,3 +141,36 @@ p {
     text-align: end;
 }
 
+.third-section {
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    padding: 35px 75px;
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    border-radius: 6px;
+}
+
+.upper-sentence {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upper-sentence, .lower-sentence {
+    color: white;
+}
+
+.sign-up-button {
+    border-radius: 6px;
+    align-self: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    
+}
