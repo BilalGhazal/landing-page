@@ -2,13 +2,13 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Roboto, sans-serif;
     background-color: #1F2937;
     padding: 50px;
     padding-top: 15px;
@@ -87,3 +87,53 @@ p {
     color: white;
     align-self: flex-start;
 }
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 150px;
+    gap: 35px;
+}
+
+.information-header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.images-and-subtext {
+    display: flex;
+    gap: 40px;
+}
+
+.images-and-subtext p {
+    width: 150px;
+    text-align: center;
+}
+
+
+.second-section {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;   
+}
+
+.quote-body {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quote-tag {
+    font-weight: bold;
+    width: 800px;
+    text-align: end;
+}
+
